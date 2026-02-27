@@ -44,18 +44,61 @@
 // result = (a > b);
 // document.write(result);
 // document.write(linebreak);
-var count;
-document.write("Starting Lopp" + "<br/>");
-for (count = 0; count < 10; count++){
-    document.write("Current Count: " + count);
-    document.write("<br/>");
+// var count;
+// document.write("Starting Lopp" + "<br/>");
+// for (count = 0; count < 10; count++){
+//     document.write("Current Count: " + count);
+//     document.write("<br/>");
+// }
+// document.write("Loop Ended");
+// const person = {
+//     fname:"Mohd",
+//     lname: "Sheeraz",
+//     age: 22
+// };
+// for (let x in person) {
+//      console.log("Person Details: " + x + " = " + person[x]);
+// }
+// var count = 0;
+// console.log("Starting Loop ");
+// while (count < 10) {
+// console.log("Current Count : " + count  + "\n");
+// count++;
+// }
+// console.log("Loop stopped!");
+
+// var age = 15 ;
+// if(age >= 18) {
+//     console.log("You are eligible to vote!");
+// }else{
+//     console.log("You are not eligible to vote!");
+// }
+
+// var grade = "A" ;
+// console.log("Entering switch gate ");
+// switch(grade){
+//     case 'A':
+//         console.log("Good job ");
+//         break ;
+    
+//     case 'B':
+//         console.log("hardwork job ");
+//         break ;
+//     case 'C':
+//         console.log("fine job ");
+//         break ;
+//     case 'D':
+//         console.log("pretty job ");
+//         break ;
+//     default:
+//         console.log("Unknown grade") ;
+// }
+
+// function sayHello(name, age){
+//     document.write(name + " is " + age + " years old");
+// }
+var res = mul(12,30);
+function mul(x,y){
+    return x*y;
 }
-document.write("Loop Ended");
-const person = {
-    fname:"Mohd",
-    lname: "Sheeraz",
-    age: 22
-};
-for (let x in person) {
-     console.log("Person Details: " + x + " = " + person[x]);
-}
+console.log(res);
