@@ -97,8 +97,25 @@
 // function sayHello(name, age){
 //     document.write(name + " is " + age + " years old");
 // }
-var res = mul(12,30);
-function mul(x,y){
-    return x*y;
-}
-console.log(res);
+// var res = mul(12,30);
+// function mul(x,y){
+//     return x*y;
+// }
+// console.log(res);
+// var add2 =(a, b) =>  console.log(a+b);
+
+// add2 (10,20)
+var person = {
+    name : "John Mac",
+    age : 30,
+    isMarried: true,
+    address:{
+        street: 'Vijay Nagar',
+        flatNO: 201
+    }
+};
+
+console.log(person.name);
+console.log(person.age);
+console.log(person.isMarried);
+console.log(person.address);
