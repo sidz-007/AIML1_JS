@@ -105,17 +105,23 @@
 // var add2 =(a, b) =>  console.log(a+b);
 
 // add2 (10,20)
-var person = {
-    name : "John Mac",
-    age : 30,
-    isMarried: true,
-    address:{
-        street: 'Vijay Nagar',
-        flatNO: 201
-    }
-};
+// var person = {
+//     name : "John Mac",
+//     age : 30,
+//     isMarried: true,
+//     address:{
+//         street: 'Vijay Nagar',
+//         flatNO: 201
+//     }
+// };
 
-console.log(person.name);
-console.log(person.age);
-console.log(person.isMarried);
-console.log(person.address);
+// console.log(person.name);
+// console.log(person.age);
+// console.log(person.isMarried);
+// console.log(person.address);
+var person2 = new Object();
+person2.name = "Sheeraz";
+person2.age = 21;
+person2.isMarried = true;
+person2.address = {};
+person2.address.street 
