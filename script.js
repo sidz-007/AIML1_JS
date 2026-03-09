@@ -119,9 +119,37 @@
 // console.log(person.age);
 // console.log(person.isMarried);
 // console.log(person.address);
-var person2 = new Object();
-person2.name = "Sheeraz";
-person2.age = 21;
-person2.isMarried = true;
-person2.address = {};
-person2.address.street 
+// var person2 = new Object();
+// person2.name = "Sheeraz";
+// person2.age = 21;
+// person2.isMarried = true;
+// person2.address = {};
+// person2.address.street 
+// var myInfo = new Array();
+// var myInfo1 = Array();
+// console.log(myInfo, myInfo1);
+// let collection=[
+// {},
+// [],
+// true,
+// "john",
+// function(){},
+// 90009898193,
+// undefined,
+// null,
+// new String("abc"),
+// new Date(),
+// ];
+// console.log(collection);
+// var trainerinfo = ["Sheeraz",21,"Shahjahanpur",{isChad:true}];
+// console.log(trainerinfo[trainerinfo.length-1]); 
+// console.log(trainerinfo[0]);
+// console.log(trainerinfo[1]);
+// console.log(trainerinfo[2]);
+
+const result = document.getElementById("para");
+console.log(result);
+result.innerHTML= "my self";
+result.title = "myname";
+
+
