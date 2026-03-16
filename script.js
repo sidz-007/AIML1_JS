@@ -147,9 +147,32 @@
 // console.log(trainerinfo[1]);
 // console.log(trainerinfo[2]);
 
-const result = document.getElementById("para");
-console.log(result);
-result.innerHTML= "my self";
-result.title = "myname";
+// const result = document.getElementById("para");
+// console.log(result);
+// result.innerHTML= "my self";
+// result.title = "myname
 
 
+// const element = document.getElementById("myH1");
+// let text = element.getAttribute("class");
+// document.getElementById("demo").innerHTML= text;
+
+// function myFunction()
+// { document.getElementById("myH1").setAttribute("class" , "democlass");
+// }
+
+
+function pratice(){
+    document.open();
+    document.write("<h1>")
+}
+
+
+// click - onclick
+// mousehover - onmouseover
+// mouseout - onmouseout
+
+
+function onMouseover(){
+    
+}
